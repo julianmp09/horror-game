@@ -1,0 +1,12 @@
+/* Ajustado el tamaño de mi pantalla cuando alcance un ancho minino de 1600px */
+
+@media (min-width: 1600px) {
+    .endless-nightmare{
+        grid-column: 2/3;
+        justify-self: center;
+        align-self: center;
+        width: 80%;
+        padding: 1rem;
+        margin-top: 5.5rem;
+    }
+}
